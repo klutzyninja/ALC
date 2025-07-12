@@ -3562,27 +3562,23 @@ Not an official Manus doc nor endorsed by Manus. Content may contain inaccuracie
 			data-domain="manus.space"
 			src="https://plausible.io/js/script.file-downloads.hash.outbound-links.pageview-props.revenue.tagged-events.js"
 		></script>
-		<script>
-			window.plausible =
-				window.plausible ||
-				function () {
-					(window.plausible.q = window.plausible.q || []).push(arguments);
-				};
-			plausible('custom-pageview', {
-			  props: {
-    			domain: window.location.host
-  			}
-			})
-		</script></body>
+        <script
+            defer
+            data-domain="manus.space"
+            src="https://plausible.io/js/script.file-downloads.hash.outbound-links.pageview-props.revenue.tagged-events.js"
+        ></script>
+        <script>
+            window.plausible =
+                window.plausible ||
+                function () {
+                    (window.plausible.q = window.plausible.q || []).push(arguments);
+                };
+            plausible('custom-pageview', {
+                props: {
+                    domain: window.location.host
+                }
+            });
+        </script>
+    </body>
 </html>
-
-
-.combined-button.review-mark {
-background: #6c757d;
-color: white;
-min-width: 150px;
-max-width: 150px;
-width: 150px;
-height: 50px;
-}
 
